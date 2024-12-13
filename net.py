@@ -8,6 +8,7 @@ import json
 import re
 import random
 from datetime import datetime
+import torch
 
 # Inisialisasi model LLaMA.cpp
 model_path = "./bitnet_b1_58-large.Q4_0.gguf"  # Ganti dengan path model Anda
