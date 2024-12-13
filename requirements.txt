@@ -2,3 +2,6 @@ fastapi==0.100.0
 pydantic==1.10.9
 llama-cpp-python==0.1.78
 uvicorn==0.23.2
+transformers==4.30.0
+langdetect==1.0.9
+torch==2.1.0+cpu #untuk menjalankan model MarianMT ketika deploy
